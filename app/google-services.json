@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233272930340",
+    "firebase_url": "https://medihelp-e4d5e-default-rtdb.firebaseio.com",
+    "project_id": "medihelp-e4d5e",
+    "storage_bucket": "medihelp-e4d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233272930340:android:77b4c6851f51fb89c8a8b1",
+        "android_client_info": {
+          "package_name": "com.example.medihelpfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233272930340-pion790e5ghpd2b1impcgmlakfcffar4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5Q6AsVEpJNoXr7GWn-6GanaF_2iZcLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233272930340-pion790e5ghpd2b1impcgmlakfcffar4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

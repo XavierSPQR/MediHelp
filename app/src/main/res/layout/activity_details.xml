@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".details">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="369dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medihelplogo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="406dp"
+        android:layout_height="586dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/categoryshape" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:srcCompat="@drawable/channeling" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="148dp"
+        android:layout_height="46dp"
+        android:background="@color/lightgreytext"
+        android:text="Details"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="339dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/justroundcorner"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+    <TextView
+        android:id="@+id/patientname"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:textColor="@color/greytext"
+        android:background="@color/lightgreytext"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:textColor="@color/black"
+        android:background="@color/lightgreytext"
+        app:layout_constraintEnd_toEndOf="@+id/patientname"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/patientname"
+        app:layout_constraintTop_toBottomOf="@+id/patientname" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="324dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter description,special note or anything important"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/greyhint"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

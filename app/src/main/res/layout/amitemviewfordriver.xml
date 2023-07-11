@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/white"
+    android:background="@drawable/cardview_border">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/amnumberford"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance Number"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/amavailableford"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor type"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/amnumberford"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/amcallford"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Occupied"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/amavailableford"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+            android:padding="12dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/amnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance Number"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/amavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability"
+            android:textColor="@color/red"
+            android:layout_below="@id/amnumber"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/amcall"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Call"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="@drawable/button_background"
+            android:layout_toRightOf="@id/amnumber"
+            android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

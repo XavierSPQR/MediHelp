@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".settings">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="369dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medihelplogo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="404dp"
+        android:layout_height="441dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/categoryshape" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="90dp"
+        android:layout_height="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:srcCompat="@drawable/settings" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/categorybutton"
+        android:checked="true"
+        android:text="Haptic FeedBack"
+        android:textColor="@color/greyhint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/categorybutton"
+        android:text="Notifications"
+        android:textColor="@color/greyhint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/categorybutton"
+        android:text="Report an error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

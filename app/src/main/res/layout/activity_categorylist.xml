@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".categorylist">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="369dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medihelplogo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="406dp"
+        android:layout_height="623dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/categoryshape" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:srcCompat="@drawable/channeling" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="138dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="Select a Category"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:background="@drawable/categorybutton"
+        android:text="Infectious Diseases"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/categorybutton"
+        android:text="CHRONIC DISEASES"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/categorybutton"
+        android:text="Mental health disorders"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/categorybutton"
+        android:text="physical injuries"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/categorybutton"
+        android:text="Allergy reactions"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="192dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/categorybutton"
+        android:text="I can't decide"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/nsay"
+        android:layout_width="321dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/categorybutton"
+        android:text="View All Doctors"
+        android:textColor="@color/greytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
